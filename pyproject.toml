@@ -1,0 +1,21 @@
+[project]
+name = "mcp-explained"
+version = "0.1.0"
+description = "A hands-on guide to understanding MCP (Model Context Protocol) through Python code"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "anthropic>=0.40.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[dependency-groups]
+dev = []
+
+[tool.uv]
+# This is a scripts-only project — no installable Python package.
+# Setting package = false tells uv not to try to build/install this
+# project itself. Only the dependencies listed above are installed.
+package = false
