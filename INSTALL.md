@@ -21,7 +21,7 @@ Step-by-step instructions to install, configure, and run the **MCP Explained** p
 
 ### Option A: Clone from GitHub
 ```bash
-git clone https://github.com/YOUR_USERNAME/mcp_explained.git
+git clone https://github.com/shashipk/mcp_explained.git
 cd mcp_explained
 ```
 
@@ -127,7 +127,7 @@ The client uses Claude (Anthropic's AI), which needs an API key.
 
 > **Billing note:** You must add credits to your Anthropic account before the API will work.
 > Go to [console.anthropic.com/settings/billing](https://console.anthropic.com/settings/billing) and add at least $5.
-> The examples use `claude-haiku-4-5` (cheapest model) — a full demo session costs less than $0.01.
+> The examples use `claude-haiku-4-5-20251001` (cheapest model) — a full demo session costs less than $0.01.
 
 ### Add the Key to `.env`
 
@@ -369,7 +369,7 @@ Add credits at [console.anthropic.com/settings/billing](https://console.anthropi
 ---
 
 ### API rate limit error
-If you see `RateLimitError`, wait 30 seconds and try again. The examples use `claude-haiku-4-5` (fastest + cheapest) to minimize this.
+If you see `RateLimitError`, wait 30 seconds and try again. The examples use `claude-haiku-4-5-20251001` (fastest + cheapest) to minimize this.
 
 ---
 

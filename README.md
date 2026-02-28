@@ -22,6 +22,7 @@
 - [Key Concepts Deep Dive](#key-concepts-deep-dive)
 - [MCP Ecosystem](#mcp-ecosystem)
 - [Troubleshooting](#troubleshooting)
+- [Full Installation Guide →](INSTALL.md)
 
 ---
 
@@ -225,13 +226,15 @@ mcp_explained/
 
 ## Quick Start
 
+> 📖 **Need more detail?** See the [full step-by-step installation guide](INSTALL.md) which covers both uv and pip methods, verification steps, all run commands, and a complete troubleshooting section.
+
 ### Prerequisites
 
 - Python 3.11+
 - [uv](https://docs.astral.sh/uv/) (recommended) or pip
 - An Anthropic API key with billing enabled ([get one here](https://console.anthropic.com/settings/keys))
 
-> **Billing note:** This project uses `claude-haiku-4-5` for examples (cheapest model).
+> **Billing note:** This project uses `claude-haiku-4-5-20251001` for examples (cheapest model).
 > A full demo session costs less than **$0.01**. Add at minimum $5 credit at
 > [console.anthropic.com/settings/billing](https://console.anthropic.com/settings/billing).
 
@@ -240,7 +243,7 @@ mcp_explained/
 ### Step 1 — Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mcp_explained.git
+git clone https://github.com/shashipk/mcp_explained.git
 cd mcp_explained
 ```
 
